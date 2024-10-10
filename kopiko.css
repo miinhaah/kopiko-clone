@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+body{overflow-x: hidden;}
+
+.header {
+
+
+    justify-content: space-between;
+    display: flex;
+    background-color: rgb(4, 4, 4);
+    color: white;
+    padding-right: 400px;
+    height: 75px;
+    width: auto;
+}
+
+.header-text {
+
+    font-weight: 500;
+    text-decoration: none;
+    margin: 15px;
+    width: 25%;
+    right: 18%;
+    font-family: fantasy;
+    display: flex;
+    gap: 50px;
+
+}
+
+.header-text p {
+    flex: none;
+    font-size: 20px;
+    justify-content: end;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.logo {
+    width: 242px;
+    padding-left: 100px;
+    height: 102px;
+z-index: 1;
+
+}
+.background1{
+    overflow: hidden;
+}
+
+
+.background2 {
+    background-color: black;
+    height: 400px;
+    margin-top: -5px;
+
+}
+.background2sub{display: flex;
+padding: 50px 178px;
+}
+
+
+.background2sub img{height:200px ;
+width: 300px;
+}
+
+
+.background2 p {
+    font-size: medium;
+    color: white;
+}
+
+.h1 {
+    font-weight: bold;
+
+}
+.background2text{color: white;
+width: 500px;
+padding-left: 35px;
+
+}
+.background2text h2{font-family: 'Asap', sans-serif;
+    padding: 20px 0px;
+    font-size: 32px;
+}
+.background2text p{
+    font-family: 'helveticaneueregular', sans-serif;
+    color: white;
+}
+
+/* .text-head1 {
+    line-height: 2;
+    font-size: 20px;
+    color: white;
+} */
+
+.img1 {
+    margin: auto;
+    float: left;
+    padding-top: 11%;
+    padding-left: 200px;
+    padding-right: 60px;
+
+
+}
+
+.text-head1 {
+    margin-left: 100px;
+    padding-top: 5%;
+    text-align: left;
+
+
+}
+
+.text-head1 h3 {
+    color: white;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.text-head1 p {
+    font-family: 'helveticaneueregular', sans-serif;
+    padding-right: 150px;
+    line-height: 30px;
+    justify-content: left;
+
+}
+
+.text-head2 h1 {
+    margin-left: 100px;
+    padding-top: 5%;
+    text-align: left;
+    color: black;
+}
+
+
+
+.background3 h1 {
+    font-size: 92px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    position: absolute;
+    top: 110px;
+    left: 600px;
+
+}
+
+.footer {
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    color: aliceblue;
+    
+
+}
+
+.background3 {
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    position: relative;
+    background: url("/photos/pics.png"); 
+
+}
+
+.background3 p{
+    position: absolute;
+    top: 230px;
+    margin-left: 600px;
+    margin-right: 100px;
+    background-color: transparent;
+    color: black;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+}
+.background4 img{position: relative;
+
+}
+
+.background4 h1{
+   color: black;
+}
+.background4{
+    position: relative;
+}
+.background4text{
+    position: absolute;
+    top: 230px;
+
+    text-align: center;
+    padding-left: 200px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    color: rgb(244, 239, 239);
+}
+
+.background4text h1{
+    color: azure;
+}
+
+.footer{background-color: rgb(16, 0, 0);
+    margin-top: -4px;
+}
+.footer p{
+    padding-top: 20px;
+}
